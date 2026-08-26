@@ -4,7 +4,7 @@ export default function App() {
   return (
     <main className="app-shell">
       <h1>Workflow Demo</h1>
-      <p>Este proyecto demuestrasdfasdfaa un pipeline CI/CD con feature flags seguros.</p>
+      <p>Este proyecto demuestrasdfasdfaaasda un pipeline CI/CD con feature flags seguros.</p>
 
       {isNewDashboardEnabled ? (
         <section className="card feature-enabled">
