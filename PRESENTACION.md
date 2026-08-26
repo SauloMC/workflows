@@ -103,7 +103,7 @@ Abre 3 cosas en pantalla:
 Ten listo el comando de verificación local:
 
 ```powershell
-Set-Location 'C:\Users\Don Saulo\workflows\backend'; & '../.venv/Scripts/python.exe' -m pytest -q; Set-Location '../frontend'; npm test -- --run; npm run build
+Set-Location 'C:\Users\IanSa\workflows\backend'; & '../.venv/Scripts/python.exe' -m pytest -q; Set-Location '../frontend'; npm test -- --run; npm run build
 ```
 
 ---
@@ -185,7 +185,7 @@ por algo como:
 ### Paso 4.3 — Verificar localmente antes de subir
 
 ```powershell
-Set-Location 'C:\Users\Don Saulo\workflows\frontend'; npm test -- --run; npm run build
+Set-Location 'C:\Users\IanSa\workflows\frontend'; npm test -- --run; npm run build
 ```
 
 **Qué decir:**
@@ -245,7 +245,7 @@ Vuelve a correr el workflow de staging (push vacío o re-run) y muestra el cambi
 
 ```powershell
 $env:VITE_NEW_DASHBOARD_ENABLED = "true"
-Set-Location 'C:\Users\Don Saulo\workflows\frontend'; npm run dev
+Set-Location 'C:\Users\IanSa\workflows\frontend'; npm run dev
 ```
 
 ### Paso 5.3 — Rollback rápido
